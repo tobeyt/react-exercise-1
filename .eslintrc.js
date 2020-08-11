@@ -29,5 +29,6 @@ module.exports = {
   ignorePatterns: ['node_modules/'],
   rules: {
     'prettier/prettier': 'error',
+    "import/no-unresolved": "off"
   },
 };
